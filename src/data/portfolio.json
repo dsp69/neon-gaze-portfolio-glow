@@ -1,0 +1,114 @@
+{
+  "personal": {
+    "name": "Alex Cyber",
+    "title": "Full-Stack Developer",
+    "tagline": "Crafting digital experiences in the cyber realm",
+    "bio": "A passionate developer who lives at the intersection of creativity and code. I build immersive web experiences with cutting-edge technologies, bringing futuristic visions to life through elegant code and innovative design.",
+    "location": "The Matrix",
+    "email": "alex@cyber.dev"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Neural Network Dashboard",
+      "description": "Real-time AI data visualization platform with interactive 3D neural networks and predictive analytics.",
+      "tech": ["React", "Three.js", "TensorFlow.js", "WebGL"],
+      "image": "/api/placeholder/400/300",
+      "github": "https://github.com/example/neural-dashboard",
+      "demo": "https://neural-dashboard.demo",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Blockchain Explorer",
+      "description": "Decentralized application for exploring blockchain transactions with neon-themed visualizations.",
+      "tech": ["Vue.js", "Web3.js", "D3.js", "Solidity"],
+      "image": "/api/placeholder/400/300",
+      "github": "https://github.com/example/blockchain-explorer",
+      "demo": "https://blockchain-explorer.demo",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Cyber Chat Bot",
+      "description": "AI-powered chatbot with natural language processing and cyberpunk personality.",
+      "tech": ["Python", "OpenAI API", "Flask", "WebSocket"],
+      "image": "/api/placeholder/400/300",
+      "github": "https://github.com/example/cyber-chatbot",
+      "demo": "https://cyber-chatbot.demo",
+      "featured": false
+    },
+    {
+      "id": 4,
+      "title": "Quantum Code Editor",
+      "description": "Advanced code editor with quantum computing syntax highlighting and simulation capabilities.",
+      "tech": ["TypeScript", "Monaco Editor", "Qiskit", "Electron"],
+      "image": "/api/placeholder/400/300",
+      "github": "https://github.com/example/quantum-editor",
+      "demo": "https://quantum-editor.demo",
+      "featured": true
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "title": "Cybersecurity Specialist Certification",
+      "organization": "CyberAcademy",
+      "date": "2024",
+      "description": "Advanced certification in ethical hacking and digital security",
+      "score": "98%",
+      "icon": "shield"
+    },
+    {
+      "id": 2,
+      "title": "Full-Stack Development Bootcamp",
+      "organization": "CodeMatrix Institute",
+      "date": "2023",
+      "description": "Intensive 6-month program covering modern web technologies",
+      "score": "Summa Cum Laude",
+      "icon": "code"
+    },
+    {
+      "id": 3,
+      "title": "AI/ML Specialization",
+      "organization": "Neural University",
+      "date": "2023",
+      "description": "Machine learning and artificial intelligence specialization",
+      "score": "96%",
+      "icon": "brain"
+    },
+    {
+      "id": 4,
+      "title": "Hackathon Champion",
+      "organization": "CyberHack 2023",
+      "date": "2023",
+      "description": "First place in 48-hour cyberpunk-themed development challenge",
+      "score": "1st Place",
+      "icon": "trophy"
+    },
+    {
+      "id": 5,
+      "title": "Open Source Contributor",
+      "organization": "GitHub",
+      "date": "2022-Present",
+      "description": "Active contributor to various open source projects",
+      "score": "500+ commits",
+      "icon": "git-branch"
+    }
+  ],
+  "skills": [
+    { "name": "React/Next.js", "level": 95 },
+    { "name": "TypeScript", "level": 90 },
+    { "name": "Three.js/WebGL", "level": 85 },
+    { "name": "Node.js", "level": 88 },
+    { "name": "Python", "level": 82 },
+    { "name": "Cybersecurity", "level": 78 }
+  ],
+  "social": {
+    "github": "https://github.com/alexcyber",
+    "linkedin": "https://linkedin.com/in/alexcyber",
+    "twitter": "https://twitter.com/alexcyber",
+    "whatsapp": "https://wa.me/1234567890",
+    "email": "alex@cyber.dev"
+  }
+}
