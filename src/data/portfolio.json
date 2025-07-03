@@ -1,114 +1,130 @@
+
 {
   "personal": {
     "name": "Alex Cyber",
     "title": "Full-Stack Developer",
-    "tagline": "Crafting digital experiences in the cyber realm",
-    "bio": "A passionate developer who lives at the intersection of creativity and code. I build immersive web experiences with cutting-edge technologies, bringing futuristic visions to life through elegant code and innovative design.",
+    "bio": "A passionate developer who lives at the intersection of creativity and code. I specialize in building immersive web experiences with cutting-edge technologies, bringing futuristic visions to life through elegant code and innovative design.",
     "location": "The Matrix",
-    "email": "alex@cyber.dev"
+    "avatar": "/src/assets/profile-cyber.jpg"
+  },
+  "social": {
+    "email": "alex@cyber.dev",
+    "github": "https://github.com/alexcyber",
+    "whatsapp": "https://wa.me/15551234567",
+    "linkedin": "https://linkedin.com/in/alexcyber"
   },
   "projects": [
     {
       "id": 1,
-      "title": "Neural Network Dashboard",
-      "description": "Real-time AI data visualization platform with interactive 3D neural networks and predictive analytics.",
-      "tech": ["React", "Three.js", "TensorFlow.js", "WebGL"],
-      "image": "/api/placeholder/400/300",
-      "github": "https://github.com/example/neural-dashboard",
-      "demo": "https://neural-dashboard.demo",
-      "featured": true
+      "title": "CyberDash Analytics",
+      "description": "Real-time data visualization platform with 3D graphs and neon UI elements. Built with React, Three.js, and WebGL shaders.",
+      "image": "/placeholder.svg",
+      "technologies": ["React", "Three.js", "WebGL", "TypeScript"],
+      "liveUrl": "https://cyberdash.demo",
+      "githubUrl": "https://github.com/alexcyber/cyberdash",
+      "featured": true,
+      "category": "Web App"
     },
     {
       "id": 2,
-      "title": "Blockchain Explorer",
-      "description": "Decentralized application for exploring blockchain transactions with neon-themed visualizations.",
-      "tech": ["Vue.js", "Web3.js", "D3.js", "Solidity"],
-      "image": "/api/placeholder/400/300",
-      "github": "https://github.com/example/blockchain-explorer",
-      "demo": "https://blockchain-explorer.demo",
-      "featured": true
+      "title": "Neon Portfolio",
+      "description": "Futuristic portfolio website with particle animations, glowing effects, and smooth transitions.",
+      "image": "/placeholder.svg",
+      "technologies": ["React", "GSAP", "Tailwind", "Vite"],
+      "liveUrl": "https://neonportfolio.demo",
+      "githubUrl": "https://github.com/alexcyber/neon-portfolio",
+      "featured": true,
+      "category": "Portfolio"
     },
     {
       "id": 3,
-      "title": "Cyber Chat Bot",
-      "description": "AI-powered chatbot with natural language processing and cyberpunk personality.",
-      "tech": ["Python", "OpenAI API", "Flask", "WebSocket"],
-      "image": "/api/placeholder/400/300",
-      "github": "https://github.com/example/cyber-chatbot",
-      "demo": "https://cyber-chatbot.demo",
-      "featured": false
-    },
-    {
-      "id": 4,
-      "title": "Quantum Code Editor",
-      "description": "Advanced code editor with quantum computing syntax highlighting and simulation capabilities.",
-      "tech": ["TypeScript", "Monaco Editor", "Qiskit", "Electron"],
-      "image": "/api/placeholder/400/300",
-      "github": "https://github.com/example/quantum-editor",
-      "demo": "https://quantum-editor.demo",
-      "featured": true
+      "title": "Quantum Calculator",
+      "description": "Advanced calculator with quantum computing simulations and holographic display effects.",
+      "image": "/placeholder.svg",
+      "technologies": ["Vue.js", "WebAssembly", "CSS3", "JavaScript"],
+      "liveUrl": "https://quantumcalc.demo",
+      "githubUrl": "https://github.com/alexcyber/quantum-calc",
+      "featured": false,
+      "category": "Tool"
     }
   ],
   "achievements": [
     {
       "id": 1,
-      "title": "Cybersecurity Specialist Certification",
-      "organization": "CyberAcademy",
+      "title": "Google Developer Challenge",
+      "organization": "Google",
       "date": "2024",
-      "description": "Advanced certification in ethical hacking and digital security",
-      "score": "98%",
-      "icon": "shield"
-    },
-    {
-      "id": 2,
-      "title": "Full-Stack Development Bootcamp",
-      "organization": "CodeMatrix Institute",
-      "date": "2023",
-      "description": "Intensive 6-month program covering modern web technologies",
-      "score": "Summa Cum Laude",
+      "description": "Successfully completed advanced web development challenges focusing on performance optimization and modern JavaScript frameworks.",
+      "score": "95%",
       "icon": "code"
     },
     {
-      "id": 3,
-      "title": "AI/ML Specialization",
-      "organization": "Neural University",
+      "id": 2,
+      "title": "Cybersecurity Certification",
+      "organization": "CompTIA",
       "date": "2023",
-      "description": "Machine learning and artificial intelligence specialization",
-      "score": "96%",
+      "description": "Earned advanced certification in cybersecurity principles, ethical hacking, and network security protocols.",
+      "score": "Certified",
+      "icon": "shield"
+    },
+    {
+      "id": 3,
+      "title": "AI/ML Bootcamp Winner",
+      "organization": "TechCorp Academy",
+      "date": "2023",
+      "description": "First place in intensive machine learning bootcamp, developing innovative AI solutions for real-world problems.",
+      "score": "1st Place",
       "icon": "brain"
     },
     {
       "id": 4,
-      "title": "Hackathon Champion",
-      "organization": "CyberHack 2023",
-      "date": "2023",
-      "description": "First place in 48-hour cyberpunk-themed development challenge",
-      "score": "1st Place",
-      "icon": "trophy"
+      "title": "Open Source Contributor",
+      "organization": "GitHub",
+      "date": "2022-2024",
+      "description": "Active contributor to major open source projects with over 500 commits and multiple merged pull requests.",
+      "score": "500+ Commits",
+      "icon": "git-branch"
     },
     {
       "id": 5,
-      "title": "Open Source Contributor",
-      "organization": "GitHub",
-      "date": "2022-Present",
-      "description": "Active contributor to various open source projects",
-      "score": "500+ commits",
-      "icon": "git-branch"
+      "title": "Hackathon Champion",
+      "organization": "DevFest 2022",
+      "date": "2022",
+      "description": "Won first place in 48-hour hackathon by creating innovative fintech solution with blockchain integration.",
+      "score": "Champion",
+      "icon": "trophy"
     }
   ],
   "skills": [
-    { "name": "React/Next.js", "level": 95 },
-    { "name": "TypeScript", "level": 90 },
-    { "name": "Three.js/WebGL", "level": 85 },
-    { "name": "Node.js", "level": 88 },
-    { "name": "Python", "level": 82 },
-    { "name": "Cybersecurity", "level": 78 }
-  ],
-  "social": {
-    "github": "https://github.com/alexcyber",
-    "linkedin": "https://linkedin.com/in/alexcyber",
-    "twitter": "https://twitter.com/alexcyber",
-    "whatsapp": "https://wa.me/1234567890",
-    "email": "alex@cyber.dev"
-  }
+    {
+      "name": "React/Next.js",
+      "level": 95,
+      "category": "Frontend"
+    },
+    {
+      "name": "TypeScript",
+      "level": 90,
+      "category": "Language"
+    },
+    {
+      "name": "Three.js/WebGL",
+      "level": 85,
+      "category": "3D Graphics"
+    },
+    {
+      "name": "Node.js",
+      "level": 88,
+      "category": "Backend"
+    },
+    {
+      "name": "Python",
+      "level": 82,
+      "category": "Language"
+    },
+    {
+      "name": "Cybersecurity",
+      "level": 78,
+      "category": "Security"
+    }
+  ]
 }
